@@ -1,0 +1,11 @@
+name: pinn-deployment-env
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - pytorch
+  - numpy
+  - pip:
+    - azureml-defaults
+    - inference-schema
